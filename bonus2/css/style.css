@@ -1,0 +1,37 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    color: white;
+    background-color: #badbdb;
+    height: 100vh;
+}
+
+main h1{
+    text-align: center;
+    padding: 20px 0;
+    color: #379191;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+main .container{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+main .box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .box div{
+    width: calc(100% / 7);
+    font-size: 1.5em;
+    margin: 7px 0;
+    text-align: center;
+}
